@@ -211,3 +211,33 @@ hr+p{
     font-size: 1.4rem;
     text-align: justify;
 }
+
+
+@media screen and (max-width:600px){
+    html{
+        font-size: 50%;
+    }
+    .left,.right{
+        float:none;
+        width: 80%;
+        margin: 1rem auto;
+    }
+    footer{
+        text-align: center;
+    }
+    .left>section{
+        width: 90%;
+        margin: 1rem auto;
+    }
+    .mid>section{
+        float: none;
+        display: block;
+        width: 80%;
+        margin: 1rem auto;
+    }
+    .why{
+        width: 80%;
+    }
+    
+
+}
